@@ -29,3 +29,182 @@
 2024-11-18 17:48:35,425 - INFO - Arquivo renomeado de 'sinannet_cnv_denguebbr09180214_195_131_227.csv' para 'Dengue'
 2024-11-18 17:48:35,425 - INFO - Stage Download for year {year} saved.
 2024-11-18 17:48:37,524 - INFO - Driver closed successfully.
+2024-11-18 18:16:57,673 - INFO - Accessing http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguebbr.def
+2024-11-18 18:16:57,810 - INFO - Line selected: Semana epidem. notificação
+2024-11-18 18:16:57,948 - INFO - Column selected: UF de notificação
+2024-11-18 18:16:58,061 - INFO - Content selected: Casos Prováveis
+2024-11-18 18:16:58,210 - INFO - Year selected: 2024
+2024-11-18 18:16:58,322 - INFO - Button 'mostre' clicked successfully!
+2024-11-18 18:16:58,334 - INFO - Switched to new tab.
+2024-11-18 18:17:07,028 - INFO - CSV file download initiated.
+2024-11-18 18:17:37,031 - INFO - Arquivo renomeado de 'sinannet_cnv_denguebbr09470414_195_131_227.csv' para 'Dengue'
+2024-11-18 18:17:37,031 - INFO - Stage Download for year {year} saved.
+2024-11-18 18:17:42,691 - INFO - Accessing http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguebbr.def
+2024-11-18 18:17:42,852 - INFO - Line selected: Semana epidem. notificação
+2024-11-18 18:17:43,010 - INFO - Column selected: UF de notificação
+2024-11-18 18:17:43,160 - INFO - Content selected: Casos Prováveis
+2024-11-18 18:17:43,400 - INFO - Year selected: 2023
+2024-11-18 18:17:43,496 - INFO - Button 'mostre' clicked successfully!
+2024-11-18 18:17:43,508 - INFO - Switched to new tab.
+2024-11-18 18:17:46,433 - INFO - CSV file download initiated.
+2024-11-18 18:18:16,435 - INFO - Arquivo renomeado de 'sinannet_cnv_denguebbr09474314_195_131_227.csv' para 'Dengue'
+2024-11-18 18:18:16,436 - INFO - Stage Download for year {year} saved.
+2024-11-18 18:18:22,376 - INFO - Accessing http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguebbr.def
+2024-11-18 18:18:22,590 - INFO - Line selected: Semana epidem. notificação
+2024-11-18 18:18:22,790 - INFO - Column selected: UF de notificação
+2024-11-18 18:18:22,954 - INFO - Content selected: Casos Prováveis
+2024-11-18 18:18:23,186 - INFO - Year selected: 2022
+2024-11-18 18:18:23,287 - INFO - Button 'mostre' clicked successfully!
+2024-11-18 18:18:23,299 - INFO - Switched to new tab.
+2024-11-18 18:18:26,546 - INFO - CSV file download initiated.
+2024-11-18 18:18:56,550 - INFO - Arquivo renomeado de 'sinannet_cnv_denguebbr09482314_195_131_227.csv' para 'Dengue'
+2024-11-18 18:18:56,553 - INFO - Stage Download for year {year} saved.
+2024-11-18 18:18:58,702 - INFO - Driver closed successfully.
+2024-11-18 18:26:16,998 - INFO - Accessing http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguebbr.def
+2024-11-18 18:26:17,142 - INFO - Line selected: Semana epidem. notificação
+2024-11-18 18:26:17,258 - INFO - Column selected: UF de notificação
+2024-11-18 18:26:17,364 - INFO - Content selected: Casos Prováveis
+2024-11-18 18:26:17,499 - INFO - Year selected: 2024
+2024-11-18 18:26:17,603 - INFO - Button 'mostre' clicked successfully!
+2024-11-18 18:26:17,612 - INFO - Switched to new tab.
+2024-11-18 18:26:27,867 - INFO - CSV file download initiated.
+2024-11-18 18:26:57,870 - INFO - Arquivo renomeado de 'sinannet_cnv_denguebbr09562414_195_131_227.csv' para 'Dengue'
+2024-11-18 18:26:57,870 - INFO - Stage Download for year {year} saved.
+2024-11-18 18:27:12,137 - INFO - Accessing http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguebbr.def
+2024-11-18 18:27:12,357 - INFO - Line selected: Semana epidem. notificação
+2024-11-18 18:27:12,631 - INFO - Column selected: UF de notificação
+2024-11-18 18:27:12,852 - INFO - Content selected: Casos Prováveis
+2024-11-18 18:27:13,200 - INFO - Year selected: 2023
+2024-11-18 18:27:13,421 - INFO - Button 'mostre' clicked successfully!
+2024-11-18 18:27:13,432 - INFO - Switched to new tab.
+2024-11-18 18:27:16,947 - INFO - CSV file download initiated.
+2024-11-18 18:27:46,957 - INFO - Arquivo renomeado de 'sinannet_cnv_denguebbr09571414_195_131_227.csv' para 'Dengue'
+2024-11-18 18:27:46,958 - INFO - Stage Download for year {year} saved.
+2024-11-18 18:28:24,385 - ERROR - Error accessing http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguebbr.def: Message: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69B5438A5+3004357]
+	(No symbol) [0x00007FF69B1D9970]
+	(No symbol) [0x00007FF69B08582A]
+	(No symbol) [0x00007FF69B082F26]
+	(No symbol) [0x00007FF69B073E79]
+	(No symbol) [0x00007FF69B075C16]
+	(No symbol) [0x00007FF69B07413F]
+	(No symbol) [0x00007FF69B0739CB]
+	(No symbol) [0x00007FF69B07390A]
+	(No symbol) [0x00007FF69B07153E]
+	(No symbol) [0x00007FF69B071E0C]
+	(No symbol) [0x00007FF69B0888CA]
+	(No symbol) [0x00007FF69B11C86E]
+	(No symbol) [0x00007FF69B0FBBDA]
+	(No symbol) [0x00007FF69B11BA4C]
+	(No symbol) [0x00007FF69B0FB983]
+	(No symbol) [0x00007FF69B0C7628]
+	(No symbol) [0x00007FF69B0C8791]
+	GetHandleVerifier [0x00007FF69B56A00D+3161901]
+	GetHandleVerifier [0x00007FF69B5BE060+3506048]
+	GetHandleVerifier [0x00007FF69B5B400D+3465005]
+	GetHandleVerifier [0x00007FF69B330EEB+830987]
+	(No symbol) [0x00007FF69B1E467F]
+	(No symbol) [0x00007FF69B1E09D4]
+	(No symbol) [0x00007FF69B1E0B6D]
+	(No symbol) [0x00007FF69B1D0149]
+	BaseThreadInitThunk [0x00007FF82B48259D+29]
+	RtlUserThreadStart [0x00007FF82CB0AF38+40]
+
+2024-11-18 18:28:54,752 - ERROR - Timeout to find Line option: Semana_epidem._notificação
+2024-11-18 18:29:23,023 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BE1456A870>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/91915a516a3ad422e4d1059c57bc2e33
+2024-11-18 18:29:27,070 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BE145A0680>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/91915a516a3ad422e4d1059c57bc2e33
+2024-11-18 18:29:31,152 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BE145A01A0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/91915a516a3ad422e4d1059c57bc2e33
+2024-11-18 18:29:39,315 - INFO - Driver closed successfully.
+2024-11-18 18:32:29,554 - INFO - Accessing http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguebbr.def
+2024-11-18 18:32:29,682 - INFO - Line selected: Semana epidem. notificação
+2024-11-18 18:32:29,801 - INFO - Column selected: UF de notificação
+2024-11-18 18:32:29,915 - INFO - Content selected: Casos Prováveis
+2024-11-18 18:32:30,066 - INFO - Year selected: 2024
+2024-11-18 18:32:30,153 - INFO - Button 'mostre' clicked successfully!
+2024-11-18 18:32:30,169 - INFO - Switched to new tab.
+2024-11-18 18:32:38,435 - INFO - CSV file download initiated.
+2024-11-18 18:33:08,437 - INFO - Arquivo existente 'Dengue' removido.
+2024-11-18 18:33:08,438 - INFO - Arquivo renomeado de 'sinannet_cnv_denguebbr10023514_195_131_227.csv' para 'Dengue'
+2024-11-18 18:33:08,438 - INFO - Stage Download for year {year} saved.
+2024-11-18 18:33:14,574 - INFO - Accessing http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguebbr.def
+2024-11-18 18:33:14,789 - INFO - Line selected: Semana epidem. notificação
+2024-11-18 18:33:15,032 - INFO - Column selected: UF de notificação
+2024-11-18 18:33:15,247 - INFO - Content selected: Casos Prováveis
+2024-11-18 18:33:15,440 - INFO - Year selected: 2023
+2024-11-18 18:33:15,572 - INFO - Button 'mostre' clicked successfully!
+2024-11-18 18:33:15,590 - INFO - Switched to new tab.
+2024-11-18 18:33:19,113 - INFO - CSV file download initiated.
+2024-11-18 18:33:49,119 - INFO - Arquivo existente 'Dengue' removido.
+2024-11-18 18:33:49,119 - INFO - Arquivo renomeado de 'sinannet_cnv_denguebbr10031614_195_131_227.csv' para 'Dengue'
+2024-11-18 18:33:49,119 - INFO - Stage Download for year {year} saved.
+2024-11-18 18:33:55,326 - ERROR - Error accessing http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguebbr.def: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00007FF69B5438A5+3004357]
+	(No symbol) [0x00007FF69B1D9970]
+	(No symbol) [0x00007FF69B08582A]
+	(No symbol) [0x00007FF69B082F26]
+	(No symbol) [0x00007FF69B073E79]
+	(No symbol) [0x00007FF69B075C16]
+	(No symbol) [0x00007FF69B07413F]
+	(No symbol) [0x00007FF69B0739CB]
+	(No symbol) [0x00007FF69B07390A]
+	(No symbol) [0x00007FF69B07153E]
+	(No symbol) [0x00007FF69B071E0C]
+	(No symbol) [0x00007FF69B0888CA]
+	(No symbol) [0x00007FF69B11C86E]
+	(No symbol) [0x00007FF69B0FBBDA]
+	(No symbol) [0x00007FF69B11BA4C]
+	(No symbol) [0x00007FF69B0FB983]
+	(No symbol) [0x00007FF69B0C7628]
+	(No symbol) [0x00007FF69B0C8791]
+	GetHandleVerifier [0x00007FF69B56A00D+3161901]
+	GetHandleVerifier [0x00007FF69B5BE060+3506048]
+	GetHandleVerifier [0x00007FF69B5B400D+3465005]
+	GetHandleVerifier [0x00007FF69B330EEB+830987]
+	(No symbol) [0x00007FF69B1E467F]
+	(No symbol) [0x00007FF69B1E09D4]
+	(No symbol) [0x00007FF69B1E0B6D]
+	(No symbol) [0x00007FF69B1D0149]
+	BaseThreadInitThunk [0x00007FF82B48259D+29]
+	RtlUserThreadStart [0x00007FF82CB0AF38+40]
+
+2024-11-18 18:34:25,656 - ERROR - Timeout to find Line option: Semana_epidem._notificação
+2024-11-18 18:34:50,940 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /session/2e31228c8ab894358b221247b257bc3e
+2024-11-18 18:34:54,992 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002548BF7F680>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2e31228c8ab894358b221247b257bc3e
+2024-11-18 18:34:59,064 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002548C104380>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2e31228c8ab894358b221247b257bc3e
+2024-11-18 18:35:22,781 - INFO - Accessing http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguebbr.def
+2024-11-18 18:35:23,113 - INFO - Line selected: Semana epidem. notificação
+2024-11-18 18:35:23,474 - INFO - Column selected: UF de notificação
+2024-11-18 18:35:23,761 - INFO - Content selected: Casos Prováveis
+2024-11-18 18:35:24,201 - INFO - Year selected: 2024
+2024-11-18 18:35:24,333 - INFO - Button 'mostre' clicked successfully!
+2024-11-18 18:35:24,353 - INFO - Switched to new tab.
+2024-11-18 18:35:33,133 - INFO - CSV file download initiated.
+2024-11-18 18:36:03,134 - INFO - Arquivo existente 'Dengue' removido.
+2024-11-18 18:36:03,134 - INFO - Arquivo renomeado de 'sinannet_cnv_denguebbr10053014_195_131_227.csv' para 'Dengue'
+2024-11-18 18:36:03,137 - INFO - Stage Download for year {year} saved.
+2024-11-18 18:36:10,408 - INFO - Accessing http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguebbr.def
+2024-11-18 18:36:10,798 - INFO - Line selected: Semana epidem. notificação
+2024-11-18 18:36:11,152 - INFO - Column selected: UF de notificação
+2024-11-18 18:36:11,509 - INFO - Content selected: Casos Prováveis
+2024-11-18 18:36:11,950 - INFO - Year selected: 2023
+2024-11-18 18:36:12,184 - INFO - Button 'mostre' clicked successfully!
+2024-11-18 18:36:12,195 - INFO - Switched to new tab.
+2024-11-18 18:36:16,435 - INFO - CSV file download initiated.
+2024-11-18 18:36:46,437 - INFO - Arquivo existente 'Dengue' removido.
+2024-11-18 18:36:46,437 - INFO - Arquivo renomeado de 'sinannet_cnv_denguebbr10061314_195_131_227.csv' para 'Dengue'
+2024-11-18 18:36:46,443 - INFO - Stage Download for year {year} saved.
+2024-11-18 18:37:00,457 - INFO - Accessing http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguebbr.def
+2024-11-18 18:37:00,841 - INFO - Line selected: Semana epidem. notificação
+2024-11-18 18:37:01,177 - INFO - Column selected: UF de notificação
+2024-11-18 18:37:01,525 - INFO - Content selected: Casos Prováveis
+2024-11-18 18:37:02,067 - INFO - Year selected: 2022
+2024-11-18 18:37:02,328 - INFO - Button 'mostre' clicked successfully!
+2024-11-18 18:37:02,340 - INFO - Switched to new tab.
+2024-11-18 18:37:05,966 - INFO - CSV file download initiated.
+2024-11-18 18:37:35,969 - INFO - Arquivo renomeado de 'sinannet_cnv_denguebbr10070314_195_131_227.csv' para 'Dengue'
+2024-11-18 18:37:35,973 - INFO - Stage Download for year {year} saved.
+2024-11-18 18:37:38,161 - INFO - Driver closed successfully.

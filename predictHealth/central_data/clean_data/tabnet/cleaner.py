@@ -1,6 +1,6 @@
 import pandas as pd
 
-import pandas as pd 
+from datetime import datetime
 
 
 class CleanFile:
@@ -67,13 +67,29 @@ class CleanFile:
         else:
             print("No data to save")
 
+try:
+    
+    
+    current_year = datetime.now().year
+    years = range(current_year, current_year - 3, -1)
+    base_path = 'C:\\Dev\\ScientifcSearch\\predictHealth\\central_data\\source_data\\'
 
-open_file = CleanFile('C:\\Dev\\ScientifcSearch\\predictHealth\\central_data\\source_data\\Dengue_2024.csv')
-open_file.load_csv()
-open_file.drop_from_text('Total')
-open_file.drop_column_from_text('Total')
-open_file.show_head()
-open_file.save_to_csv('C:\\Dev\\ScientifcSearch\\predictHealth\\central_data\\source_data\\Dengue_2024.csv')
+    for year in years:
+        file_path = f"{base_path}Dengue_{year}.csv"
+
+
+        open_file = CleanFile(file_path)
+
+        open_file.load_csv()
+        open_file.drop_from_text('Total')
+        open_file.drop_column_from_text('Total')
+        open_file.show_head()
+        open_file.save_to_csv(file_path)
+
+except Exception as e:
+    print(f"Error during cleaner process file: {e}!")
+
+
 
 
 
