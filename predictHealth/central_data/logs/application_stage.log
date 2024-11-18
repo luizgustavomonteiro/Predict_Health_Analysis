@@ -1,0 +1,31 @@
+2024-11-18 17:46:38,450 - INFO - Accessing http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguebbr.def
+2024-11-18 17:46:38,665 - INFO - Line selected: Semana epidem. notificação
+2024-11-18 17:46:38,841 - INFO - Column selected: UF de notificação
+2024-11-18 17:46:39,088 - INFO - Content selected: Casos Prováveis
+2024-11-18 17:46:39,350 - INFO - Year selected: 2024
+2024-11-18 17:46:39,503 - INFO - Button 'mostre' clicked successfully!
+2024-11-18 17:46:39,517 - INFO - Switched to new tab.
+2024-11-18 17:46:48,220 - INFO - CSV file download initiated.
+2024-11-18 17:47:18,221 - INFO - Arquivo renomeado de 'sinannet_cnv_denguebbr09164514_195_131_227.csv' para 'Dengue'
+2024-11-18 17:47:18,221 - INFO - Stage Download for year {year} saved.
+2024-11-18 17:47:22,662 - INFO - Accessing http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguebbr.def
+2024-11-18 17:47:22,934 - INFO - Line selected: Semana epidem. notificação
+2024-11-18 17:47:23,190 - INFO - Column selected: UF de notificação
+2024-11-18 17:47:23,450 - INFO - Content selected: Casos Prováveis
+2024-11-18 17:47:23,801 - INFO - Year selected: 2023
+2024-11-18 17:47:23,948 - INFO - Button 'mostre' clicked successfully!
+2024-11-18 17:47:23,961 - INFO - Switched to new tab.
+2024-11-18 17:47:26,840 - INFO - CSV file download initiated.
+2024-11-18 17:47:56,846 - INFO - Arquivo renomeado de 'sinannet_cnv_denguebbr09172414_195_131_227.csv' para 'Dengue'
+2024-11-18 17:47:56,846 - INFO - Stage Download for year {year} saved.
+2024-11-18 17:48:01,512 - INFO - Accessing http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/denguebbr.def
+2024-11-18 17:48:01,725 - INFO - Line selected: Semana epidem. notificação
+2024-11-18 17:48:01,914 - INFO - Column selected: UF de notificação
+2024-11-18 17:48:02,116 - INFO - Content selected: Casos Prováveis
+2024-11-18 17:48:02,390 - INFO - Year selected: 2022
+2024-11-18 17:48:02,542 - INFO - Button 'mostre' clicked successfully!
+2024-11-18 17:48:02,558 - INFO - Switched to new tab.
+2024-11-18 17:48:05,423 - INFO - CSV file download initiated.
+2024-11-18 17:48:35,425 - INFO - Arquivo renomeado de 'sinannet_cnv_denguebbr09180214_195_131_227.csv' para 'Dengue'
+2024-11-18 17:48:35,425 - INFO - Stage Download for year {year} saved.
+2024-11-18 17:48:37,524 - INFO - Driver closed successfully.
