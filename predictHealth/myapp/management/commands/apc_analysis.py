@@ -1,14 +1,12 @@
+import matplotlib.pyplot as plt
+import pandas as pd
 from django.core.management.base import BaseCommand
-import pandas as pd 
-import numpy as np
-from scipy.stats import linregress
 from myapp.models import Notifications
 
 class Command(BaseCommand):
-    help = 'Run APC analysis'
+    help = 'Run APC analysis and generate continuous graph from 2022 to 2024'
 
     def handle(self, *args, **kwargs):
-        limite_apc = 10
         # Extrair dados de Notifications
         dados = Notifications.objects.all().values(
             'notification_id', 'disease', 'region', 
@@ -18,47 +16,36 @@ class Command(BaseCommand):
 
         # Converter para um DataFrame
         df_dados = pd.DataFrame(dados)
+        
+        # Agrupar por semana e somar os casos confirmados
+        df_semana = df_dados.groupby(['notification_year', 'notification_week']).agg(
+            total_cases=('cases_confirmed', 'sum')
+        ).reset_index()
 
-        # Agrupar os dados por região e doença
-        segments = df_dados.groupby(['region', 'disease'])
+        # Criar uma coluna 'week_number' para representar as semanas de forma contínua
+        df_semana['week_number'] = (df_semana['notification_year'] - 2022) * 52 + df_semana['notification_week']
 
-        # Calcular APC
-        results = self.calc_apc(segments, limite_apc)
+        # Exibir o DataFrame resultante com semanas contínuas e casos confirmados
+        print("DataFrame com semanas contínuas:")
+        print(df_semana[['week_number', 'total_cases']])
 
-        # Exibir os resultados
-        print(results)
+        # Gerar o gráfico
+        plt.figure(figsize=(14, 7))
+        plt.plot(df_semana['week_number'], df_semana['total_cases'], marker='o', color='b', label='Casos Confirmados')
 
-    def calc_apc(self, segments, limite_apc):
-        results = []
-        for (region, disease), segment in segments:
-            if len(segment) > 1 and segment['cases_confirmed'].notnull().all():
-                x = np.arange(len(segment))
-                y = segment['cases_confirmed'].values
+        # Personalizar o gráfico
+        plt.title('Casos Confirmados por Semana (2022 - 2024)', fontsize=14)
+        plt.xlabel('Semana (2022 - 2024)', fontsize=12)
+        plt.ylabel('Casos Confirmados', fontsize=12)
+        plt.grid(True)
 
-                slope, intercept, r_value, p_value, std_err = linregress(x, np.log(y))
-                apc = (np.exp(slope) - 1) * 100
-                duration = segment['notification_week'].iloc[-1] - segment['notification_week'].iloc[0] + 1
+        # Adicionar marcas de semana no eixo X
+        # Definir a cada 10 semanas uma marca no eixo X para evitar sobrecarga visual
+        ticks = df_semana['week_number'][::10]  # Pega cada 10ª semana
+        labels = [f"{year}-W{week}" for year, week in zip(df_semana['notification_year'][::10], df_semana['notification_week'][::10])]
+        
+        plt.xticks(ticks=ticks, labels=labels, rotation=45, ha='right')
 
-                # Emitir alerta se o APC ultrapassar o limite
-                if apc > limite_apc:
-                    print(f"Alerta! O APC na região {region} para a doença {disease} ultrapassou o limite de {limite_apc}% com um valor de {apc:.2f}%.")
-                
-                # Adicionar resultados na lista
-                results.append({
-                    'region': region,
-                    'Disease': disease,
-                    'Slope Log': slope,
-                    'APC (%)': apc,
-                    'Intercept': intercept,
-                    'R-squared': r_value ** 2,
-                    'P-value': p_value,
-                    'Std Err': std_err,
-                    'Início': segment['notification_week'].iloc[0],
-                    'Fim': segment['notification_week'].iloc[-1],
-                    'Casos Início': segment['cases_confirmed'].iloc[0],
-                    'Casos Fim': segment['cases_confirmed'].iloc[-1],
-                    'Duração': duration
-                })
-
-        df_results = pd.DataFrame(results)
-        return df_results
+        # Exibir o gráfico
+        plt.legend()
+        plt.show()
